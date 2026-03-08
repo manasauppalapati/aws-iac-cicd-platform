@@ -5,19 +5,20 @@ Designed and implemented reusable Terraform modules and automated CI/CD pipeline
 This project demonstrates a production-style Infrastructure as Code (IaC) and CI/CD setup for AWS using Terraform, GitHub Actions, and modular deployment patterns. The goal is to provide a repeatable, secure, and scalable way to deploy cloud infrastructure across multiple environments.
 
 ## Key Features
-•	Reusable Terraform modules for AWS infrastructure
-•	Automated CI/CD pipelines using GitHub Actions
-•	Remote Terraform state management using S3 backend with state locking
-•	Secure infrastructure provisioning using IAM roles and encryption
-•	Modular architecture supporting dev, QA, and production environments
-•	Reduced infrastructure provisioning time through automation
+
+- Reusable Terraform modules for AWS infrastructure
+- Automated CI/CD pipelines using GitHub Actions
+- Remote Terraform state management using S3 backend with state locking
+- Secure infrastructure provisioning using IAM roles and encryption
+- Modular architecture supporting dev, QA, and production environments
+- Reduced infrastructure provisioning time through automation
 
 ## Technology Stack
-•	Terraform
-•	AWS (EC2, VPC, IAM, RDS, ECS, S3)
-•	GitHub Actions
-•	Infrastructure as Code (IaC)
-•	Docker and container-based workloads
+- Terraform
+- AWS (EC2, VPC, IAM, RDS, ECS, S3)
+- GitHub Actions
+- Infrastructure as Code (IaC)
+- Docker and container-based workloads
 
 ## Project Structure
 ```text
