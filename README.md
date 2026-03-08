@@ -65,22 +65,22 @@ The GitHub Actions pipeline validates Terraform code and ensures infrastructure 
 Terraform remote state is configured using an S3 backend. State locking prevents concurrent updates to infrastructure, allowing safe collaboration among multiple engineers.
 
 ## Security Practices
-•	Role-based access control using AWS IAM
-•	Encryption using AWS Key Management Service (KMS)
-•	Secrets management using AWS Secrets Manager
-•	Secure infrastructure deployments through controlled CI/CD pipelines
+- Role-based access control using AWS IAM
+- Encryption using AWS Key Management Service (KMS)
+- Secrets management using AWS Secrets Manager
+- Secure infrastructure deployments through controlled CI/CD pipelines
 
 ## Use Cases
-•	Provision repeatable AWS infrastructure environments
-•	Automate deployment pipelines for cloud infrastructure
-•	Standardize DevOps workflows using Infrastructure as Code
-•	Enable secure and scalable cloud infrastructure deployments
-
+- Provision repeatable AWS infrastructure environments
+- Automate deployment pipelines for cloud infrastructure
+- Standardize DevOps workflows using Infrastructure as Code
+- Enable secure and scalable cloud infrastructure deployments
+ 
 ## Future Enhancements
-•	Add Terraform security scanning
-•	Add ECS service deployment examples
-•	Add monitoring integration with CloudWatch
-•	Add multi-environment promotion pipelines
+- Add Terraform security scanning
+- Add ECS service deployment examples
+- Add monitoring integration with CloudWatch
+- Add multi-environment promotion pipelines
 
 ## Author
 Sri Lakshmi Manasa Uppalapati
