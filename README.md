@@ -20,13 +20,11 @@ This project demonstrates a production-style Infrastructure as Code (IaC) and CI
 •	Docker and container-based workloads
 
 ## Project Structure
-
+```text
 aws-iac-cicd-platform/
-│
 ├── .github/
 │   └── workflows/
 │       └── terraform.yml
-│
 ├── environments/
 │   └── dev/
 │       ├── backend.hcl.example
@@ -35,25 +33,23 @@ aws-iac-cicd-platform/
 │       ├── terraform.tfvars.example
 │       ├── variables.tf
 │       └── versions.tf
-│
 ├── modules/
 │   ├── ecs_cluster/
 │   │   ├── main.tf
 │   │   ├── outputs.tf
 │   │   └── variables.tf
-│   │
 │   ├── iam_ci_cd/
 │   │   ├── main.tf
 │   │   ├── outputs.tf
 │   │   └── variables.tf
-│   │
 │   └── vpc/
 │       ├── main.tf
 │       ├── outputs.tf
 │       └── variables.tf
-│
 ├── .gitignore
 └── README.md
+```
+
 
 ## CI/CD Workflow
 The GitHub Actions pipeline validates Terraform code and ensures infrastructure changes follow best practices.
